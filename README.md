@@ -1,9 +1,13 @@
-btrace start up project template
+btrace start-up template project
 ==================================
 
-Add your app dependency, then create your btrace script.
+1. Add your app dependency, then create your btrace script.
+1. Compile btrace script by `mvn install`.
+1. Get the class of btrace script from directory `target`.
+1. Upload the class of the btrace script to the machine that the java process you want to trace is running on.
+1. Run Command: `btrace <pid> <btrace script class>`
 
-This project contains the sample code from btrace. 
+This project contains the example code from btrace, so you can simply copy and use it.
 
 btrace resource
 ----------------------
